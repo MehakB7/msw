@@ -3,6 +3,9 @@ import React, { useState } from "react";
 import { set, useForm } from "react-hook-form";
 import { LoginType } from "./type";
 import { LoginFields, LoginStatus } from "./constant";
+
+ import { handler } from "@/app/handler/login";
+
 const Login = () => {
   const { register, handleSubmit } = useForm<LoginType>({
     defaultValues: LoginFields,
@@ -16,12 +19,13 @@ const Login = () => {
   const onSubmit = async(data: LoginType) => {
     console.log("data", data)
     try{
-      const response = await fetch("/api/signin", {method:"post", body:JSON.stringify(data)});
-      const res = await response.json();
-      setStatus({
-        type: LoginStatus.suceess,
-        message: res.message
-      })
+      handler(data)
+      // const response = await fetch("/api/signin", {method:"post", body:JSON.stringify(data)});
+      // const res = await response.json();
+      // setStatus({
+      //   type: LoginStatus.suceess,
+      //   message: res.message
+      // })
      
     }catch(e){
       setStatus({
