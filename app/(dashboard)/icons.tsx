@@ -86,16 +86,16 @@ export const location = (
   </svg>
 );
 export const Icon = (
-  <svg
-    width="100"
-    height="100"
+    <svg
+    width="50"
+    height="50"
     viewBox="0 0 100 100"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <rect width="100" height="100" fill="black" />
+    <rect width="50" height="50" fill="none" />
     <text
       x="10"
-      y="50"
+      y="65"
       font-family="'Brush Script MT', cursive"
       font-size="50"
       fill="white"
@@ -104,32 +104,15 @@ export const Icon = (
     </text>
     <text
       x="50"
-      y="50"
+      y="65"
       font-family="'Brush Script MT', cursive"
       font-size="50"
       fill="#13E8E9"
-    >
-      N
-    </text>
-    <text
-      x="10"
-      y="90"
-      font-family="'Brush Script MT', cursive"
-      font-size="50"
-      fill="#13E8E9"
-    >
-      A
-    </text>
-    <text
-      x="50"
-      y="90"
-      font-family="'Brush Script MT', cursive"
-      font-size="50"
-      fill="white"
     >
       B
     </text>
   </svg>
+
 );
 
 export const workIcon = (
