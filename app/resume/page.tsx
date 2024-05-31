@@ -5,12 +5,12 @@ function page() {
   return (
     <div className="container m-auto">
       {resume.map((item, index) => (
-        <div key={index} className="max-lg:m-1">
+        <div key={index} className="m-4">
           <div className="flex items-center gap-4">
           <h1 className="inline-block mb-2 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">{item.title}</h1>
           {item.icon}
           </div>
-          <div className="m-4 max-lg:m-8">
+          <div className="m-8">
           <ol className="relative border-s border-gray-200 dark:border-gray-700"> 
           {item.data.map((data, index)=>(
            <TimelineCard {...data} key={index} />
