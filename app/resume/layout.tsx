@@ -1,8 +1,8 @@
 import {ReactNode} from 'react'
 
  export const metadata ={
-    title : "Mehak",
-    description : "Mehak's portfolio"
+    title : "Resume",
+    description : "myresume"
  }
 
 
