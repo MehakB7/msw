@@ -4,8 +4,7 @@ export const Links = [
     {
         name:"Mail",
         icon: mail,
-        href: "mehakbisht5@gmail.com",
-        value: "mehakbisht5@gmail.com"
+        href: "mailto:mehakbisht5@gmail.com",
     },
     {
         name:"linkedIn",

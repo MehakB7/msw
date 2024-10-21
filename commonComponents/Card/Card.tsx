@@ -2,13 +2,14 @@ import React from "react";
 import { CardType } from "./type";
 import Tag from "../Tag/Tag";
 import Image from "next/image";
+import Link from "next/link";
 
 const Card = ({ title, description, image, link, tags }: CardType) => {
   return (
     <div className="max-w-sm bg-black rounded-lg shadow dark:bg-black-800 dark:border-black-700 shadow-md shadow-cyan-500/50 opacity-15 transition duration-300 ease-in-out transform hover:scale-110 ">
-      <a href={link}>
+      <Link href={link} target="_blank">
         <Image className="rounded-t-lg" src={image} alt="" width={340} height={200}/>
-      </a>
+      </Link>
       <div className="p-5">
         <a href="#">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
