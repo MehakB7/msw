@@ -18,11 +18,4 @@ export const Links = [
         href: "https://github.com/MehakB7",
         value: "mehakb7"
     },
-
-    {
-        name:"leetcode",
-        icon: leetcode,
-        href: "https://leetcode.com/u/mehakb7/",
-        value: "mehakb7"
-    }
 ]
