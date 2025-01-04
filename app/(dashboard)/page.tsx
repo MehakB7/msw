@@ -12,7 +12,7 @@ const Page = async () => {
   return (
     <>
       <ParticleContainer />
-      <div className="container mx-auto p-10 grid grid-cols-3 max-lg:grid-cols-2 max-lg:justify-center gap-5">
+      <div className="container mx-auto mt-16 p-10 grid grid-cols-3 max-lg:grid-cols-2 max-lg:justify-center gap-5">
         <div className="flex flex-col justify-self-start items-center max-lg:col-span-2 max-lg:justify-center max-lg:w-full">
           <Image
             src="/images/profile.webp"

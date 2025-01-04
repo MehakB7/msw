@@ -1,4 +1,4 @@
-import { github, leetcode, linkedin, mail } from "./icons";
+import { github, linkedin, mail } from "./icons";
 
 export const Links = [
     {

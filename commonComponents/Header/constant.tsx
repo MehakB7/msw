@@ -8,3 +8,7 @@ export const paths =  [
         name: "Projects"
     }
 ]
+
+export const links = {
+    cv: "/pdf/cv.pdf"
+}
