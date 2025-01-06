@@ -4,4 +4,5 @@ export type CardType = {
     description: string,
     link: string,
     tags?: string[]  
+    responsibility: string[]
 }
