@@ -40,7 +40,7 @@ const Card = ({
             </div>
           )}
         </div>
-        <div className="w-full h-full absolute top-0 rounded-lg transform scale-0 origin-bottom-right transition-all duration-300 ease-in-out group-hover:scale-100 bg-black ">
+        <div className="w-full h-full sm:absolute top-0 rounded-lg transform sm:scale-0 origin-bottom-right transition-all duration-300 ease-in-out sm:group-hover:scale-100 bg-black ">
           <div className="flex justify-center w-full h-full">
             <ul className="p-5 mx-4 list-disc">
               {responsibility.map((item, index) => (
