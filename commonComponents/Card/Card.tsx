@@ -13,7 +13,7 @@ const Card = ({
   responsibility,
 }: CardType) => {
   return (
-    <Link href={link} target="_blank"  className="max-w-sm  group bg-black rounded-lg shadow dark:bg-black-800 relative dark:border-black-700 shadow-md shadow-cyan-500/50 opacity-15 transition duration-300 ease-in-out transform hover:scale-110 ">
+    <Link href={link} target="_blank"  className="max-w-sm group bg-black rounded-lg shadow dark:bg-black-800 relative dark:border-black-700 shadow-md shadow-cyan-500/50 opacity-15 transition duration-300 ease-in-out transform hover:scale-110 ">
       <div>
         <Image
           className="rounded-t-lg"
