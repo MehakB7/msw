@@ -9,9 +9,9 @@ export const github = (
     fill="currentColor"
   >
     <path
-      fill-rule="evenodd"
+      fillRule="evenodd"
       d="M12.048 2a9.913 9.913 0 00-6.511 2.44 10.308 10.308 0 00-3.407 6.171 10.436 10.436 0 001.323 6.954 10.079 10.079 0 005.422 4.418c.505.095.684-.226.684-.497v-1.744c-2.804.624-3.396-1.378-3.396-1.378a2.738 2.738 0 00-1.115-1.504c-.906-.63.074-.63.074-.63.317.046.62.165.886.348.266.184.488.426.648.71.137.252.32.475.541.655a2.128 2.128 0 001.582.463c.28-.033.551-.122.798-.262a2.198 2.198 0 01.616-1.372c-2.23-.258-4.572-1.14-4.572-5.035a4.013 4.013 0 011.03-2.75 3.813 3.813 0 01.098-2.713s.844-.277 2.76 1.05a9.303 9.303 0 015.028 0c1.917-1.327 2.755-1.05 2.755-1.05.37.85.413 1.811.123 2.693a4.014 4.014 0 011.029 2.75c0 3.94-2.348 4.803-4.584 5.036.24.246.425.542.543.868.118.326.166.674.14 1.02v2.814c0 .333.18.591.69.49a10.085 10.085 0 005.346-4.434 10.437 10.437 0 001.29-6.91 10.31 10.31 0 00-3.373-6.132A9.916 9.916 0 0012.048 2z"
-      clip-rule="evenodd"
+      clipRule="evenodd"
     ></path>
   </svg>
 );
@@ -39,9 +39,9 @@ export const linkedin = (
     fill="currentColor"
   >
     <path
-      fill-rule="evenodd"
+      fillRule="evenodd"
       d="M7.061 20.678H3.3V8.572h3.762v12.106zM5.157 7.086C3.97 7.086 3.2 6.242 3.2 5.203c0-1.064.791-1.88 2.006-1.88 1.214 0 1.957.816 1.98 1.88.002 1.042-.767 1.883-2.029 1.883zM20.8 20.678h-3.76v-6.71c0-1.56-.546-2.622-1.907-2.622-1.04 0-1.657.718-1.932 1.41-.099.245-.123.594-.123.939v6.98H9.313v-8.244c0-1.51-.048-2.774-.099-3.862h3.267l.175 1.682h.073c.496-.791 1.71-1.955 3.74-1.955 2.474 0 4.331 1.657 4.331 5.222v7.159z"
-      clip-rule="evenodd"
+      clipRule="evenodd"
     ></path>
   </svg>
 );
@@ -58,14 +58,14 @@ export const leetcode = (
       fill="white"
     ></path>
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M41.1067 72.0014C37.5858 72.0014 34.7314 69.1421 34.7314 65.615C34.7314 62.0879 37.5858 59.2286 41.1067 59.2286H88.1245C91.6454 59.2286 94.4997 62.0879 94.4997 65.615C94.4997 69.1421 91.6454 72.0014 88.1245 72.0014H41.1067Z"
       fill="white"
     ></path>
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M49.9118 2.02335C52.3173 -0.55232 56.3517 -0.686894 58.9228 1.72277C61.494 4.13244 61.6284 8.17385 59.2229 10.7495L16.4276 56.5729C11.7768 61.552 12.2861 69.5738 17.6453 74.8292L37.4088 94.2091C39.9249 96.6764 39.968 100.72 37.505 103.24C35.042 105.761 31.0056 105.804 28.4895 103.337L8.72593 83.9567C-1.42529 74.0021 -2.43665 58.0741 7.1169 47.8463L49.9118 2.02335Z"
       fill="white"
     ></path>
@@ -81,9 +81,9 @@ export const location = (
     fill="currentColor"
   >
     <path
-      fill-rule="evenodd"
+      fillRule="evenodd"
       d="M20.364 10.364c0 2.814-1.496 5.556-3.956 8.153a25.656 25.656 0 01-3.506 3.072c-.161.116-.28.198-.347.243a1 1 0 01-1.11 0 12.541 12.541 0 01-.347-.243 25.651 25.651 0 01-3.506-3.071c-2.46-2.598-3.956-5.34-3.956-8.154a8.364 8.364 0 0116.728 0zm-7.836 8.997a23.687 23.687 0 002.428-2.22c2.142-2.26 3.408-4.58 3.408-6.777a6.364 6.364 0 00-12.728 0c0 2.196 1.266 4.517 3.408 6.778A23.689 23.689 0 0012 19.769c.166-.124.342-.26.528-.408zM12 12.91a3 3 0 110-6 3 3 0 010 6zm0-2a1 1 0 100-2 1 1 0 000 2z"
-      clip-rule="evenodd"
+      clipRule="evenodd"
     ></path>
   </svg>
 );
@@ -98,8 +98,8 @@ export const Icon = (
     <text
       x="10"
       y="65"
-      font-family="'Brush Script MT', cursive"
-      font-size="50"
+      fontFamily="'Brush Script MT', cursive"
+      fontSize="50"
       fill="white"
     >
       M
@@ -107,8 +107,8 @@ export const Icon = (
     <text
       x="50"
       y="65"
-      font-family="'Brush Script MT', cursive"
-      font-size="50"
+      fontFamily="'Brush Script MT', cursive"
+      fontSize="50"
       fill="#13E8E9"
     >
       B
@@ -120,11 +120,11 @@ export const Icon = (
 export const workIcon = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    shape-rendering="geometricPrecision"
-    text-rendering="geometricPrecision"
-    image-rendering="optimizeQuality"
-    fill-rule="evenodd"
-    clip-rule="evenodd"
+    shapeRendering="geometricPrecision"
+    textRendering="geometricPrecision"
+    imageRendering="optimizeQuality"
+    fillRule="evenodd"
+    clipRule="evenodd"
     viewBox="0 0 512 388.14"
     width="2em"
     height="2em"
@@ -152,7 +152,7 @@ export const DownloadIcon =(props: SVGProps<SVGSVGElement>)=>{
  return( 
   <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
   <g id="Interface / Download">
-  <path id="Vector" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path id="Vector" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
   </g>
   </svg>)
 }

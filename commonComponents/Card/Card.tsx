@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { CardType } from "./type";
 import Tag from "../Tag/Tag";
@@ -13,8 +14,8 @@ const Card = ({
   responsibility,
 }: CardType) => {
   return (
-    <Link href={link} target="_blank"  className="max-w-sm group bg-black rounded-lg shadow dark:bg-black-800 relative dark:border-black-700 shadow-md shadow-cyan-500/50 opacity-15 transition duration-300 ease-in-out transform hover:scale-110 ">
-      <div>
+    <Link href={link} target="_blank"  className="max-w-sm group bg-black rounded-lg shadow dark:bg-black-800 relative dark:border-black-700 shadow-md shadow-cyan-500/50 opacity-15 transition duration-300 ease-in-out transform sm:hover:scale-110 ">
+      <>
         <Image
           className="rounded-t-lg"
           src={image}
@@ -22,13 +23,10 @@ const Card = ({
           width={340}
           height={200}
         />
-
         <div className="p-5">
-          <a href="#">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               {title}
             </h5>
-          </a>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
             {description}
           </p>
@@ -51,7 +49,7 @@ const Card = ({
             </ul>
           </div>
         </div>
-      </div>
+      </>
     </Link>
   );
 };
