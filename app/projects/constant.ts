@@ -1,21 +1,5 @@
 export const projects = [
   {
-    title: "Web3 Apps",
-    image: "/images/web3.png",
-    description:
-      "Series of small web3 app created for learning and exploring web3 technologies",
-    link: "https://web3-xi-ten.vercel.app/",
-    tags: ["Next-js", "Wagmi", "Solidity", "Shadcn"],
-    responsibility: [
-      "Developed a Next.js application with Wagmi for Web3 integration and Shadcn for UI.",
-      "Authored and deployed smart contracts using Foundry on the Sepolia Testnet.",
-      "Wrote comprehensive test cases in Foundry to validate smart contract functionality and tested them locally on Anvil.",
-      "Integrated Pinata for IPFS-based image storage, enabling decentralized and reliable asset management.",
-      "Deployed the app on Vercel.",
-    ],
-  },
-
-  {
     title: "Oya Kitchens",
     image: "/images/oyakitchens.png",
     description:
